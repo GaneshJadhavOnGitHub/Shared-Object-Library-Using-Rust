@@ -1,0 +1,75 @@
+Hardware :- 
+
+Processor	- Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz, 2601 Mhz, 2 Core(s), 4 Logical Processor(s)
+Installed RAM	- 16.0 GB (15.7 GB usable)
+System type	- 64-bit operating system, x64-based processor
+Pen and touch	- No pen or touch input is available for this display
+-------------------------------
+Operating System :- 
+
+Edition	        : Windows 10 Pro
+Version	        : 22H2
+Installed on	‎: 29-‎08-‎2022
+OS build	: 19045.2846
+Experience	: Windows Feature Experience Pack 120.2212.4190.0
+----------------------------
+Ubuntu 20.04.5 LTS with WSL2 is required.
+
+WSL2 version information
+
+Command :- wsl -l -v
+
+Output :- 
+  NAME                   STATE           VERSION
+* Ubuntu                 Stopped         2
+  docker-desktop-data    Stopped         2
+  docker-desktop         Stopped         2
+
+Ubuntu version information
+Executed following command on ubuntu terminal
+
+Command :- lsb_release -a
+
+Output :- 
+
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 20.04.5 LTS
+Release:        20.04
+Codename:       focal
+
+------------------------------------
+ 
+----------------------------
+Rust Compiler Version :- 
+
+Command :- rustc --version
+
+Output  :- rustc 1.69.0 (84c898d65 2023-04-16)
+-----------------------
+Rust toolchain :- 
+
+Command  :- rustup toolchain list
+
+Output   :- 
+stable-x86_64-pc-windows-msvc (default)
+nightly-2023-01-05-x86_64-pc-windows-msvc
+nightly-x86_64-pc-windows-msvc
+1.50.0-x86_64-pc-windows-msvc
+--------------------
+
+IDE Used :- 
+
+Visual Studio Code 
+
+Version: 1.77.3 (user setup)
+Commit: 704ed70d4fd1c6bd6342c436f1ede30d1cff4710
+Date: 2023-04-12T09:16:02.548Z
+Electron: 19.1.11
+Chromium: 102.0.5005.196
+Node.js: 16.14.2
+V8: 10.2.154.26-electron.0
+OS: Windows_NT x64 10.0.19045
+Sandboxed: Yes
+------
+
