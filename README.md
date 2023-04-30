@@ -6,8 +6,8 @@ Shared Object (.so) File :-
 
 In simple words, a '.so' file on linux is what a 'dll' on windows. 
 
-It is a library that is linked to the binary but it is not embedded inside binary like static library (.a), 
-so it will be loaded only when the binary is loaded. 
+It is a library that is linked to the executable but it is not embedded inside executable like static library (.a), 
+so it will be loaded only when the executable is loaded. 
 
 ------------------
 For System Requirements please refer 'Application_Requirements.txt'
