@@ -16,13 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: find pwd
-      run: pwd
-    - name: list dir
-      run: ls
     - name: Build Library
       run: cargo build --manifest-path /home/runner/work/Shared-Object-File-Using-Rust/Shared-Object-File-Using-Rust/SharedObjectFile/addition_library/Cargo.toml --verbose
     - name: Build Client
       run: cargo build --manifest-path /home/runner/work/Shared-Object-File-Using-Rust/Shared-Object-File-Using-Rust/SharedObjectFile/addition_client/Cargo.toml --verbose
-    - name: RUn Client
+    - name: Run Client
       run: cargo run --manifest-path /home/runner/work/Shared-Object-File-Using-Rust/Shared-Object-File-Using-Rust/SharedObjectFile/addition_client/Cargo.toml --verbose
