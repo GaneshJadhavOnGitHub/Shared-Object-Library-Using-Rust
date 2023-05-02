@@ -35,7 +35,7 @@ How to run the project.
 
 Application is tested on Ubuntu 20.04.5 LTS with WSL2 on Windows 10. 
 
-Tested on ubuntu-latest using git actions, working well.
+Tested on Ubuntu 22.04.2 LTS using git actions, working well.
 
 -----------------------
 
