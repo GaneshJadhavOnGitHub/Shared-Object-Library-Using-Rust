@@ -46,7 +46,7 @@ Output :-
 ![Output1](https://user-images.githubusercontent.com/86361080/234288935-f37ecda9-c406-43b4-92e6-0f83f0ce7c1d.png)
 
 
-2. Build Binary project :
+2. Build and Run Binary project :
 
 ![Output2](https://user-images.githubusercontent.com/86361080/234289054-19efb663-2859-45d9-901c-46ac780ce601.png)
 
