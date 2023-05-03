@@ -1,4 +1,4 @@
-# Shared-Object-File-Using-Rust
+# Shared-Object-Library-Using-Rust
 A sample project which creates a shared object (.so) library on linux using Rust programming language and calls it's function from another rust program.
 
 -------------------
