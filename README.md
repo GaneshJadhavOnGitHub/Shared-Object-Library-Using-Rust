@@ -53,13 +53,13 @@ Output :-
 --------------------
    
    
-__addition_library project tree structure__
+__addition_library project dependency tree__
 
 ```
 addition_library v0.1.0 () - 
 
 ```
-__addition_client project tree structure__
+__addition_client project dependency tree__
 
 ```
 addition_client v0.1.0  () - 
