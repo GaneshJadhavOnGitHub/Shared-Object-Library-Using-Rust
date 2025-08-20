@@ -53,3 +53,43 @@ Output :-
 --------------------
    
    
+__addition_library project tree structure__
+
+```
+addition_library v0.1.0 () - 
+
+```
+__addition_client project tree structure__
+
+```
+addition_client v0.1.0  () - 
+`-- addition_library feature "default"
+    `-- addition_library v0.1.0 () - 
+
+```
+
+__Repository Tree Structure__
+
+```
+├── .github
+    └── workflows
+    │   └── rust.yml
+├── Application_Requirements.txt
+├── LICENSE
+├── Output1.png
+├── Output2.png
+├── README.md
+└── SharedObjectFile
+    ├── addition_client
+        ├── .gitignore
+        ├── Cargo.lock
+        ├── Cargo.toml
+        └── src
+        │   └── main.rs
+    └── addition_library
+        ├── .gitignore
+        ├── Cargo.toml
+        └── src
+            └── lib.rs
+
+```
