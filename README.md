@@ -2,12 +2,11 @@
 A sample project which creates a shared object (.so) library on linux using Rust programming language and calls it's function from another rust program.
 
 -------------------
-Shared Object (.so) File :-
+Shared Object (.so) File:- 
 
-In simple words, a '.so' file on linux is what a 'dll' on windows. 
+In simple words, a '.so' file on Linux is similar to a 'dll' on Windows. 
 
-It is a library that is linked to the executable but it is not embedded inside executable like static library (.a), 
-so it will be loaded only when the executable is loaded. 
+It is a library that is dynamically linked to the executable/binary, meaning it's not embedded inside the executable/binary like a static library (.a). Instead, the executable/binary contains references to the .so file, which is loaded into memory when the executable/binary is run and the library's functionality is referenced. This dynamic linking allows multiple executables/binaries to share the same library in memory, promoting efficient use of system resources.
 
 ------------------
 For System Requirements please refer 'Application_Requirements.txt'
